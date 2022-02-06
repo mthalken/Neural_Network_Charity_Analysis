@@ -22,19 +22,14 @@
 
 ### Compiling, Training, and Evaluating the Model
  - The first model we ran we started with 2 hidden layers at 80 and 30 neurons respectively, with the activation function of ReLu for the hidden layers and Sigmoid for the output layer. 
-     - The results of the first model was an accuracy score of 72.6% and a loss of 55.4%. 
+     - The results of the first model had an accuracy score of 72.6% and a loss of 55.4%. 
 ![png](https://github.com/mthalken/Neural_Network_Charity_Analysis/blob/main/images/model_one.png)
     
-    - After several different attempts to optimize the model we found the following resulted in the best accuracy score:
-        - Created binning for the ASK_AMT column
-        - Increased the hidden layers 3 at to 80, 50, and 30 neurons respectively
-        - The results produced an accuracy score of 72.6% and a loss of 58.1%. The training accuracy did show a promising accurance score of 74.6% and a loss of 52.3%. 
+ - After several different attempts to optimize the model, we found the following resulted in the best accuracy score:
+     - Created binning for the ASK_AMT column
+     - Increased the hidden layers 3 at to 80, 50, and 30 neurons respectively
+     - The results produced an accuracy score of 72.6% and a loss of 58.1%. The training accuracy did show a promising accuracy score of 74.6% and a loss of 52.3%. 
 ![png](https://github.com/mthalken/Neural_Network_Charity_Analysis/blob/main/images/model_three.png)
 
 ## Summary
-
-
-
-
-image link: ![png](link)
-clink link: [here](link)
+After several attempts to optimize the neural network model we did not reach the target accuracy score of 75%. An alternative to this model could be a Random Forest Classifier. The Random Forest models run faster than neural network models and can help avoid the data from being overfitted. 
